@@ -1,3 +1,7 @@
+This repository is my own version of the React Advanced tutorial by John Smilga. It includes my personalized notes as I learn React.
+
+Originally from John Smilga's README file:
+
 ## Corresponding Projects
 
 #### useState
