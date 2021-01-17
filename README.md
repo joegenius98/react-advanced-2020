@@ -1,6 +1,6 @@
 # Learning React from freeCodeCamp's YouTube Channel
 
-This repository is my own version of the [React Advanced tutorial](https://youtu.be/4UZrsTqkcW4) by John Smilga on freeCodeCamp's YouTube channel. It includes my personalized notes as I learn React.
+This repository is my own version of the advanced React repostiory from John Smilga's [React tutorial](https://youtu.be/4UZrsTqkcW4) by on the freeCodeCamp YouTube channel. This repository includes my personalized notes as I learn React.
 
 Originally from John Smilga's README file:
 
