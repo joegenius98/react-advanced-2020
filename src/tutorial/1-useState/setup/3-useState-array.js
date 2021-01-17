@@ -4,14 +4,21 @@ import { data } from "../../../data";
 const UseStateArray = () => {
   const [people, setPeople] = React.useState(data);
 
+  //Given an id, remove the person associated with that id (for front-end
+  //button adjacent to each person)
   const removeItem = (id) => {
     let newPeople = people.filter((person) => person.id !== id);
     setPeople(newPeople);
   };
 
+  //for the button "Remove All"
   const removeAll = () => setPeople([]);
 
+  //returns an array of div-elements styled with "item" className
+  // and a button that removes all people
   return (
+    //<> and </> are short-hand for <React.Fragment> and </React.Fragment> respectively
+    //source: https://reactjs.org/docs/fragments.html
     <>
       {people.map((person) => {
         const { id, name } = person;
